@@ -94,7 +94,8 @@ public class BlogPage extends Hook {
 			for(int j = 0; j < lblBlogName().size(); j++) {
 				utilities.scrollToWebElement(lblBlogName().get(j));
 				System.out.println("Titulo blog : " + lblBlogName().get(j).getText() + 
-						" related link: "+ lblBlogName().get(j).getAttribute("href"));
+						" related link1: "+ lblBlogName().get(j).getAttribute("href"));
+				System.out.println("prueba git");
 			}
 		}
 	}
