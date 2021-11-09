@@ -1,7 +1,0 @@
-com\Recordatorio\Entrevista\StepsDefinition\BlogPageDefinition.class
-com\Recordatorio\Entrevista\Utilities\Utilities.class
-com\Recordatorio\Entrevista\Runners\Runner.class
-com\Recordatorio\Entrevista\StepsDefinition\MainPageDefinition.class
-com\Recordatorio\Entrevista\PageObjects\BlogPage.class
-com\Recordatorio\Entrevista\PageObjects\MainPage.class
-com\Recordatorio\Entrevista\Utilities\Hook.class

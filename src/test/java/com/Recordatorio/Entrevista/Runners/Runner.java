@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "src/test/resources/features/" }, glue = { "com.Recordatorio.Entrevista.Utilities",
-		"com.Recordatorio.Entrevista.StepsDefinition" }, tags = "@ValidationOne")
+		"com.Recordatorio.Entrevista.StepsDefinition" }, tags = "@ValidationOne", publish = true)
 
 public class Runner {
 
