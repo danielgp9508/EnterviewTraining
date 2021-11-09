@@ -1,8 +1,5 @@
 package com.Recordatorio.Entrevista.PageObjects;
 
-import static org.junit.Assert.assertEquals;
-
-import org.openqa.selenium.By;
 
 import com.Recordatorio.Entrevista.Utilities.*;
 

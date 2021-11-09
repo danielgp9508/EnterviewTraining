@@ -1,18 +1,23 @@
 package com.Recordatorio.Entrevista.StepsDefinition;
 
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-import net.thucydides.core.annotations.Steps;
+
 
 import com.Recordatorio.Entrevista.PageObjects.BlogPage;
 import com.Recordatorio.Entrevista.PageObjects.MainPage;
 
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 public class BlogPageDefinition {
 	
-	@Steps
-	BlogPage blogPage;
+	private BlogPage blogPage;
+	
+	public BlogPageDefinition() {
+		blogPage = new BlogPage();
+	}
+
+	 
 	
 	
 	@When("^Open Blog section$")

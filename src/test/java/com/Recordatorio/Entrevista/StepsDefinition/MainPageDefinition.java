@@ -1,18 +1,20 @@
 package com.Recordatorio.Entrevista.StepsDefinition;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-import net.thucydides.core.annotations.Steps;
 
-import com.Recordatorio.Entrevista.PageObjects.BlogPage;
+
+
 import com.Recordatorio.Entrevista.PageObjects.MainPage;
+
+import io.cucumber.java.en.Given;
 
 public class MainPageDefinition {
 	
-	@Steps
-	MainPage mainPage;
+	private MainPage mainPage;
 	
+	public MainPageDefinition() {
+		mainPage = new MainPage();
+	}
+
 	@Given("^Access to URL$")
 	public void mainPageAccess() throws Exception {
 		mainPage.accessToMainPage();
