@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.Recordatorio.Entrevista.Runners.Runner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 80.547 s <<< FAILURE! - in com.Recordatorio.Entrevista.Runners.Runner
+BlankFactor WebPage Automation.Go to BlankFactor WebPage  Time elapsed: 76.82 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Thank you, your sign-up request was successful! Please check your email inbox to confirm].> but was:<[Oops. Something went wrong. Please try again later].>
+

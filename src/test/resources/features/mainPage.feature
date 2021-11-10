@@ -15,4 +15,4 @@ Feature: BlankFactor WebPage Automation
 
     Examples: 
       | name 																				| mail|
-      |Why Fintech in Latin America Is Having a Boom|daniel.prueba1234@prueba.com|
+      |Why Fintech in Latin America Is Having a Boom|prueba1234@prueba.com|
