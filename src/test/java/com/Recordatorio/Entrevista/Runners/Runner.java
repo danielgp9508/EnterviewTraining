@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = { "src/test/resources/features/" }, glue = { "com.Recordatorio.Entrevista.Utilities",
 		"com.Recordatorio.Entrevista.StepsDefinition" }, tags = "@ValidationOne", publish = true, plugin = { "pretty",
 				"json:target/cucumber-reports/Cucumber.json", "junit:target/cucumber-reports/Cucumber.xml",
-				"html:target/cucumber-reports" }, monochrome = true)
+				"html:target/cucumber-reports/Cucumber.html" }, monochrome = true)
 
 public class Runner {
 

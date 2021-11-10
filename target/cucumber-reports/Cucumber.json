@@ -1,0 +1,165 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T03:25:39.951Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6772969800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Recordatorio.Entrevista.Utilities.Hook.chromeDriverConnection()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Go to BlankFactor WebPage",
+        "description": "",
+        "id": "blankfactor-webpage-automation;go-to-blankfactor-webpage;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1004400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Recordatorio.Entrevista.Utilities.Hook.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40065924100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Access to URL",
+            "match": {
+              "location": "com.Recordatorio.Entrevista.StepsDefinition.MainPageDefinition.mainPageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4416434500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open Blog section",
+            "match": {
+              "location": "com.Recordatorio.Entrevista.StepsDefinition.BlogPageDefinition.openBlogSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9140498000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Serch specific post by name Why Fintech in Latin America Is Having a Boom",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Why Fintech in Latin America Is Having a Boom",
+                  "offset": 28
+                }
+              ],
+              "location": "com.Recordatorio.Entrevista.StepsDefinition.BlogPageDefinition.serchPost(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101998800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate inside the Blog Why Fintech in Latin America Is Having a Boom",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Why Fintech in Latin America Is Having a Boom",
+                  "offset": 25
+                }
+              ],
+              "location": "com.Recordatorio.Entrevista.StepsDefinition.BlogPageDefinition.validateSelectedBlog(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6037681700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Suscribe to the newsletter prueba1234@prueba.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prueba1234@prueba.com",
+                  "offset": 27
+                }
+              ],
+              "location": "com.Recordatorio.Entrevista.StepsDefinition.BlogPageDefinition.suscribeNewsletter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142998800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate Suscription",
+            "match": {
+              "location": "com.Recordatorio.Entrevista.StepsDefinition.BlogPageDefinition.validateSuscription()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10016548300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Print all Blogs",
+            "match": {
+              "location": "com.Recordatorio.Entrevista.StepsDefinition.BlogPageDefinition.printBlogs()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@ValidationOne"
+          }
+        ]
+      }
+    ],
+    "name": "BlankFactor WebPage Automation",
+    "description": "",
+    "id": "blankfactor-webpage-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/mainPage.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

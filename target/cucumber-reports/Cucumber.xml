@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="77.653">
+    <testcase classname="BlankFactor WebPage Automation" name="Go to BlankFactor WebPage" time="76.988">
+        <system-out><![CDATA[Given Access to URL.........................................................passed
+When Open Blog section......................................................passed
+And Serch specific post by name Why Fintech in Latin America Is Having a Boom.passed
+Then Validate inside the Blog Why Fintech in Latin America Is Having a Boom.passed
+When Suscribe to the newsletter prueba1234@prueba.com.......................passed
+Then Validate Suscription...................................................passed
+And Print all Blogs.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
