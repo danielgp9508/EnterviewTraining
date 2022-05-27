@@ -3,12 +3,13 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-11-10T03:25:39.951Z",
+        "start_timestamp": "2022-04-27T00:48:43.938Z",
         "before": [
           {
             "result": {
-              "duration": 6772969800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 95\nCurrent browser version is 100.0.4896.127 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027EN911705\u0027, ip: \u0027192.168.0.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:168)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:104)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:91)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:46)\r\n\tat com.Recordatorio.Entrevista.Utilities.Hook.chromeDriverConnection(Hook.java:30)\r\n",
+              "duration": 3422201200,
+              "status": "failed"
             },
             "match": {
               "location": "com.Recordatorio.Entrevista.Utilities.Hook.chromeDriverConnection()"
@@ -22,7 +23,7 @@
         "after": [
           {
             "result": {
-              "duration": 1004400,
+              "duration": 1000500,
               "status": "passed"
             },
             "match": {
@@ -35,8 +36,7 @@
         "steps": [
           {
             "result": {
-              "duration": 40065924100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "Access to URL",
@@ -47,8 +47,7 @@
           },
           {
             "result": {
-              "duration": 4416434500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "Open Blog section",
@@ -59,8 +58,8 @@
           },
           {
             "result": {
-              "duration": 9140498000,
-              "status": "passed"
+              "duration": 995900,
+              "status": "skipped"
             },
             "line": 10,
             "name": "Serch specific post by name Why Fintech in Latin America Is Having a Boom",
@@ -77,8 +76,7 @@
           },
           {
             "result": {
-              "duration": 101998800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "Validate inside the Blog Why Fintech in Latin America Is Having a Boom",
@@ -95,8 +93,7 @@
           },
           {
             "result": {
-              "duration": 6037681700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "Suscribe to the newsletter prueba1234@prueba.com",
@@ -113,8 +110,8 @@
           },
           {
             "result": {
-              "duration": 142998800,
-              "status": "passed"
+              "duration": 1000300,
+              "status": "skipped"
             },
             "line": 13,
             "name": "Validate Suscription",
@@ -125,8 +122,7 @@
           },
           {
             "result": {
-              "duration": 10016548300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "Print all Blogs",

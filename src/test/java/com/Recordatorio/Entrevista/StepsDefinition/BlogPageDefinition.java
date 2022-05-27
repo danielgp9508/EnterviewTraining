@@ -4,6 +4,7 @@ package com.Recordatorio.Entrevista.StepsDefinition;
 
 import com.Recordatorio.Entrevista.PageObjects.BlogPage;
 import com.Recordatorio.Entrevista.PageObjects.MainPage;
+import com.Recordatorio.Entrevista.Utilities.Hook;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -17,8 +18,6 @@ public class BlogPageDefinition {
 		blogPage = new BlogPage();
 	}
 
-	 
-	
 	
 	@When("^Open Blog section$")
 	public void openBlogSection() throws Exception {

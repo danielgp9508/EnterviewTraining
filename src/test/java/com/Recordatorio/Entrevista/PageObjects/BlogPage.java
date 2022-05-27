@@ -5,13 +5,28 @@ import static org.junit.Assert.assertEquals;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.internal.WebElementToJsonConverter;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.Recordatorio.Entrevista.Utilities.*;
 
 
 public class BlogPage extends Hook {
+	
+	public BlogPage() {
+		PageFactory.initElements(Hook.driver, this);
+	}
+	
+	
+	@FindBy(id= "menu-item-3960")
+	private WebElement btnBlogMenu1;
+	
+	@FindBy(id= "menu-item-3960")
+	private List<WebElement> btnBlogMenu2;
 	
 	Utilities utilities = new Utilities();
 	
